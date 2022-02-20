@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    button {
+        @apply border border-solid border-black px-3 py-1;
+    }
+
+    input[type="text"] {
+        @apply border border-solid border-black px-3 py-1;
+    }
+
+    .app {
+        @apply inline-block;
+    }
+}
